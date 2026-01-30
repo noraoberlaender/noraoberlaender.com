@@ -41,6 +41,7 @@ jobs:
           cp favicon.svg _site/
           cp robots.txt _site/
           cp sitemap.xml _site/
+          cp CNAME _site/
           # Copy any additional assets if they exist
           if [ -d "assets" ]; then cp -r assets _site/; fi
 
